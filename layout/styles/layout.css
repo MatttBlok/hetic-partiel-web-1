@@ -51,7 +51,9 @@
 		text-transform: uppercase;
 	}
 
-
+	.headerbg {
+		background-image:url('/images/demo/conciergerie_img/bg.jpg') !important;
+	}
 	/* Page Intro --------------------------------------------------------------------------------------------------------------- */
 
 	#pageintro {
@@ -1182,7 +1184,7 @@
 	}
 
 	.bgded {
-		background-image: url("../images/demo/conciergerie_img/bg2.jpg");
+		background-image: url("/images/demo/conciergerie_img/bg2.jpg");
 	}
 
 
@@ -1296,7 +1298,7 @@
 			text-align: center;
 		}
 		#header #logo {
-			margin: 0 0 15px 0;
+			margin: 0 0 0px 0;
 		}
 		#pageintro article {
 			max-width: none;
@@ -1349,3 +1351,8 @@
 		}
 	}
 
+
+	a:hover {
+		color: grey;
+		transition: all 0.3s ease;
+	}

@@ -946,7 +946,6 @@
 
 	.row2 {
 		color: #FFFFFF;
-		background-color: #222222;
 	}
 
 	.row3 {
@@ -1180,6 +1179,10 @@
 	table a,
 	#comments a {
 		background-color: inherit;
+	}
+
+	.bgded {
+		background-image: url("../images/demo/conciergerie_img/bg2.jpg");
 	}
 
 
